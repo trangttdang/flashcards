@@ -9,15 +9,16 @@ const FlashCard = (flashcard) => {
     const toggleCard = () => {
         setIsFrontShown(!isFrontShown);
     };
+    console.log(flashcard.song)
 
     return (
         <div className={`flip-card ${isFrontShown ? '' : 'flipped'}`} onClick={toggleCard}>
         <div className="flip-card-inner">
             <div className="flip-card-front">
-                {flashcard.frontContent}
+                {flashcard.song}
             </div>
             <div className="flip-card-back">
-                {flashcard.backContent}
+                {flashcard.group}
             </div>
         </div>
     </div>
