@@ -1,13 +1,13 @@
 [
-    {"song":"Spring Day", "group": "BTS"},
-    {"song":"Hype Boy", "group": "NewJeans"},
-    {"song":"Tally", "group": "Black Pink"},
-    {"song":"TOMBOY", "group": "(G)I-DLE"},
-    {"song":"AntiFragile", "group": "LE SSERAFIM"},
-    {"song":"Roly Poly", "group": "T-Ara"},
-    {"song":"Wannabe", "group": "ITZY"},
-    {"song":"Happiness", "group": "Red Velvet"},
-    {"song":"Love Scenario", "group": "iKON"},
-    {"song":"Love Shot", "group": "EXO"}
+    {"song":"Spring Day", "group": "BTS", "img":"src/assets/imgs/springday.jpg"},
+    {"song":"Hype Boy", "group": "NewJeans", "img":"src/assets/imgs/hypeboy.webp"},
+    {"song":"Tally", "group": "Black Pink", "img":"src/assets/imgs/tally.webp"},
+    {"song":"TOMBOY", "group": "(G)I-DLE", "img": "src/assets/imgs/tomboy.jpg"},
+    {"song":"AntiFragile", "group": "LE SSERAFIM", "img": "src/assets/imgs/antifragile.png"},
+    {"song":"Roly Poly", "group": "T-Ara", "img": "src/assets/imgs/rolypoly.jpg"},
+    {"song":"Wannabe", "group": "ITZY", "img": "src/assets/imgs/wannabe.png"},
+    {"song":"Happiness", "group": "Red Velvet", "img": "src/assets/imgs/happiness.png"},
+    {"song":"Love Scenario", "group": "iKON", "img": "src/assets/imgs/loveascenario.jpg"},
+    {"song":"Love Shot", "group": "EXO", "img": "src/assets/imgs/loveshot.jpg"}
 
 ]

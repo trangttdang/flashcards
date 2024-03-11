@@ -20,7 +20,8 @@ const FlashCard = ({ flashcard, isFrontShown, isChanged }) => {
     <div className={`flip-card ${isShown ? '' : 'flipped'}`} onClick={toggleCard}>
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          {flashcard.song}
+        <div className="song-title">{flashcard.song}</div>
+        <img src={flashcard.img} alt="Album Cover" className="album-cover" />
         </div>
         <div className="flip-card-back">
           {flashcard.group}

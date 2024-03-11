@@ -7,6 +7,7 @@ const App = () => {
     <div className="App">
       <div className="header">
         <h1>Guess K-pop Groups</h1>
+        <h1>✨✨✨✨✨✨✨</h1>
         <FlashCardContainer flashcards={cards}/>
       </div>
     </div>
