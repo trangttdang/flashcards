@@ -11,7 +11,16 @@ const FlashcardContainer = ({ flashcards }) => {
   }, [currentCardIndex]);
 
   const handleNextCard = () => {
-    setCurrentCardIndex((prevIndex) => (prevIndex + 1) % flashcards.length);
+    let nextIndex = getRandomIndex();
+    // Ensure that the next random index is different from the current one
+    while (nextIndex === currentCardIndex) {
+      nextIndex = getRandomIndex();
+    }
+    setCurrentCardIndex(nextIndex);
+  };
+  const getRandomIndex = () => {
+    // Generate a random index within the range of flashcards array
+    return Math.floor(Math.random() * flashcards.length);
   };
 
   // Check if the current card index has changed from the previous card index
