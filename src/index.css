@@ -28,6 +28,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('src/assets/imgs/sky.jpg'); /* Specify the URL of your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
 }
 
 h1 {

@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.custom-button {
+  background-color: #c1121f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
