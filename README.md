@@ -1,10 +1,10 @@
 # Web Development Project 2 - *Flashcard*
 
-Submitted by: **Your Name Here**
+Submitted by: **Trang Dang**
 
-This web app: **insert description**
+This web app: **Given the song names, try to guess the group name!**
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Required Features
 
@@ -45,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Trang Dang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
